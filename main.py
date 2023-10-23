@@ -6,11 +6,6 @@ window.title("Mile to Km Converter")
 window.minsize(width=500, height=300)
 window.config(padx=10, pady=10)
 
-# Label: "Input here >>>>"
-#label_01 = Label(text="Input here >>>>", font=("Arial", 24, "bold"))
-#label_01.grid(column=0, row=0)
-#label_01.config(padx=50, pady=50)
-
 #Input:
 input = Entry(width=50)
 input.grid(column=1, row=0)
