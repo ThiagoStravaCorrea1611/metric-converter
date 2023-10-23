@@ -32,7 +32,7 @@ label_04.config(padx=5, pady=5)
 # Button
 def button_clicked():
     miles_input = float(input.get())
-    km_otput = str(1.609344*miles_input)
+    km_otput = str(round(1.609344*miles_input, 2))
     output.config(text=km_otput)
 
 button = Button(text="Calculate", command=button_clicked)
